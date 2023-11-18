@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wLr0x6agv+Fe1udXAA9hk9glohfkX7mCXDjw+rVBEXM=",
+  "Hash": "+ngecV+oSoE/q0uWg0nKyduYLrpWXfXrMZyMPoQxYm0=",
   "Source": "yeni-layihe",
   "BasePath": "_content/yeni-layihe",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/zilishzulfugarli/Desktop/yeni-layihe/obj/Debug/net7.0/scopedcss/projectbundle/yeni-layihe.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/zilishzulfugarli/Desktop/yeni-layihe/wwwroot/.DS_Store",
+      "SourceId": "yeni-layihe",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/zilishzulfugarli/Desktop/yeni-layihe/wwwroot/",
+      "BasePath": "_content/yeni-layihe",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/zilishzulfugarli/Desktop/yeni-layihe/wwwroot/css/index.css",

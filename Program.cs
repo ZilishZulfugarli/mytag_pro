@@ -1,7 +1,20 @@
+using yeni_layihe.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System.Configuration;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.AspNetCore.Identity;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+ builder.Services.AddDbContext<AppDBContext>(options=>
+ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+ builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
+
 
 var app = builder.Build();
 

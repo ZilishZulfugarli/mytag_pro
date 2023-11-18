@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/yeni-layihe.bundle.scp.css"
     },
     {
+      "Id": "/Users/zilishzulfugarli/Desktop/yeni-layihe/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/zilishzulfugarli/Desktop/yeni-layihe/wwwroot/css/index.css",
       "PackagePath": "staticwebassets/css/index.css"
     },
